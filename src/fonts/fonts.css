@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Bold'), local('FuturaPT-Bold'),
+    url('FuturaPT-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Extra Bold'), local('FuturaPT-ExtraBold'),
+    url('FuturaPT-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Book'), local('FuturaPT-Book'),
+    url('FuturaPT-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

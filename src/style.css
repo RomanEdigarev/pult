@@ -1,0 +1,309 @@
+@import "fonts/fonts.css";
+
+:root {
+  --gold: #a89365;
+  --gray: #575757;
+}
+
+* {
+  font-family: "Futura PT", monospace;
+  color: var(--gray);
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  padding: 0 5.71rem;
+  margin: 0 auto;
+  max-width: 1920px;
+  max-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.43rem;
+  color: var(--gold);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.29rem;
+  color: var(--gold);
+  font-weight: 600;
+  line-height: 1;
+}
+
+header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+header > h1 {
+  text-transform: uppercase;
+}
+
+header > a {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-size: 1.29rem;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+header > a > span {
+  font-size: 1.43rem;
+  margin-right: 8px;
+  color: var(--gold);
+}
+
+header > a:hover {
+  border-bottom: 1px solid var(--gold);
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.carousel__wrapper {
+  overflow: hidden;
+}
+.carousel {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  transition: all 1s ease-in-out;
+}
+
+.carousel__card {
+  font-size: 1.43rem;
+  width: 25%;
+  max-width: 29.29rem;
+  min-width: 270px;
+  margin-right: 2.86rem;
+}
+
+.carousel__card > img {
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.carousel__card > h2 {
+  margin-bottom: 20px;
+}
+
+.carousel__card > p {
+  line-height: 2.14rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > button {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid var(--gold);
+  width: 360px;
+  height: 60px;
+  font-size: 1.29rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__leftBtn {
+  background-color: white;
+  color: var(--gold);
+  margin-right: 20px;
+}
+
+.footer__leftBtn:hover {
+  background: var(--gold);
+  color: white;
+  text-decoration: underline;
+}
+
+.footer__rightBtn {
+  background-color: var(--gold);
+  margin-left: 20px;
+  color: white;
+}
+
+.footer__rightBtn:hover {
+  background: none;
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+.slide_left,
+.slide_right {
+  width: 4.5%;
+  height: 10.2%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 30%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.slide_left > img,
+.slide_right > img {
+  object-fit: contain;
+}
+
+.slide_left {
+  left: -4.5%;
+}
+
+.slide_right {
+  right: -4.5%;
+}
+
+.slide_left:hover,
+.slide_right:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 9.3px;
+  }
+
+  .footer > button {
+    width: 300px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0 20px;
+  }
+
+  header {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
+
+  .slide_left,
+  .slide_right {
+    display: none;
+  }
+
+  .carousel__card {
+    min-width: 270px;
+    margin-right: 20px;
+  }
+
+  .carousel__card > img {
+    margin-bottom: 10px;
+  }
+
+  .carousel__card > h2 {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer > button {
+    width: 100%;
+  }
+
+  .footer__leftBtn {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .footer__rightBtn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .selectors {
+    margin: 0 auto 20px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .selectors > div {
+    cursor: pointer;
+    outline: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 60%;
+    background-color: lightgray;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .selectors > .activeSelector {
+    background-color: var(--gold);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 7px;
+  }
+
+  body {
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  header > a {
+    position: static;
+  }
+
+  header > a > span {
+    font-size: 18px;
+  }
+
+  .carousel__card {
+    margin: 0;
+    min-width: 100%;
+  }
+
+  .carousel__card > p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1549f3a-934c-4a85-8beb-544d09bc31e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o403kFmZeCOLTh9BNa1Jx4y6P0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fonts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\RomanEdigarev\Desktop\тестовые\pult\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RomanEdigarev\Desktop\тестовые\pult" />
+      <recent name="C:\Users\RomanEdigarev\Desktop\тестовые\pult\src\fonts" />
+      <recent name="C:\Users\RomanEdigarev\Desktop\тестовые\pult\src\Futura" />
+      <recent name="C:\Users\RomanEdigarev\Desktop\тестовые\pult\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RomanEdigarev\Desktop\тестовые\pult\src\fonts" />
+      <recent name="C:\Users\RomanEdigarev\Desktop\тестовые\pult\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pult/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1549f3a-934c-4a85-8beb-544d09bc31e8" name="Default Changelist" comment="" />
+      <created>1612530361426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612530361426</updated>
+      <workItem from="1612530362560" duration="17345000" />
+      <workItem from="1612596764279" duration="30002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="210" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612552078212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1612552078212" />
+    <state width="1340" height="223" key="GridCell.Tab.0.bottom" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.0.bottom/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.0.center" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.0.center/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.0.left" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.0.left/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.0.right" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.0.right/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.1.bottom" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.1.bottom/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.1.center" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.1.center/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.1.left" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.1.left/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.1.right" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.1.right/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.2.bottom" timestamp="1612531933278">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.2.bottom/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933278" />
+    <state width="1340" height="223" key="GridCell.Tab.2.center" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.2.center/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.2.left" timestamp="1612531933277">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.2.left/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933277" />
+    <state width="1340" height="223" key="GridCell.Tab.2.right" timestamp="1612531933278">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1340" height="223" key="GridCell.Tab.2.right/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531933278" />
+    <state x="265" y="13" key="SettingsEditor" timestamp="1612548894078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="188" y="9" key="SettingsEditor/0.0.1360.728/1360.0.1366.728@0.0.1360.728" timestamp="1612531899439" />
+    <state x="265" y="13" key="SettingsEditor/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1612548894078" />
+    <state x="2314" y="0" width="578" height="780" key="find.popup" timestamp="1612686543624">
+      <screen x="1920" y="0" width="1366" height="728" />
+    </state>
+    <state x="2314" y="0" width="578" height="780" key="find.popup/0.0.1920.1040/1920.0.1366.728@1920.0.1366.728" timestamp="1612686543624" />
+  </component>
+</project>
