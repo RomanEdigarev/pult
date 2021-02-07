@@ -70,15 +70,20 @@ const createSelectors = (
   content.after(selectors);
 };
 
-/* Selectors for screen 600px*/
-if (document.documentElement.clientWidth <= 600) {
-  createSelectors(selectorsCount, 580, "px");
-}
-
-/* Selectors for screen 414px*/
-if (document.documentElement.clientWidth <= 414) {
-  while (selectors.firstChild) {
-    selectors.removeChild(selectors.firstChild);
+window.addEventListener("resize", () => {
+  /* Selectors for screen 600px*/
+  if (document.documentElement.clientWidth <= 600) {
+    while (selectors.firstChild) {
+      selectors.removeChild(selectors.firstChild);
+    }
+    createSelectors(selectorsCount, 580, "px");
   }
-  createSelectors(4, 100, "%");
-}
+
+  /* Selectors for screen 414px*/
+  if (document.documentElement.clientWidth <= 414) {
+    while (selectors.firstChild) {
+      selectors.removeChild(selectors.firstChild);
+    }
+    createSelectors(4, 100, "%");
+  }
+});
